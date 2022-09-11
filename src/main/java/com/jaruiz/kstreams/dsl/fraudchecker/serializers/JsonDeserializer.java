@@ -1,4 +1,4 @@
-package com.paradigma.rt.streaming.kstreams.fraudcheckerkstreams.serializers;
+package com.jaruiz.kstreams.dsl.fraudchecker.serializers;
 
 import com.google.gson.Gson;
 import org.apache.kafka.common.serialization.Deserializer;

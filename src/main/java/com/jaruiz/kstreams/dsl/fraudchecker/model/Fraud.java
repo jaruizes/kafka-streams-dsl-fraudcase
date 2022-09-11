@@ -1,4 +1,4 @@
-package com.paradigma.rt.streaming.kstreams.fraudcheckerkstreams.model;
+package com.jaruiz.kstreams.dsl.fraudchecker.model;
 
 import lombok.Data;
 

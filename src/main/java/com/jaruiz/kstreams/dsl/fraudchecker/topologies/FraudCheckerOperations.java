@@ -1,7 +1,7 @@
-package com.paradigma.rt.streaming.kstreams.fraudcheckerkstreams.topologies;
+package com.jaruiz.kstreams.dsl.fraudchecker.topologies;
 
-import com.paradigma.rt.streaming.kstreams.fraudcheckerkstreams.model.Fraud;
-import com.paradigma.rt.streaming.kstreams.fraudcheckerkstreams.model.Movement;
+import com.jaruiz.kstreams.dsl.fraudchecker.model.Fraud;
+import com.jaruiz.kstreams.dsl.fraudchecker.model.Movement;
 
 public class FraudCheckerOperations {
 

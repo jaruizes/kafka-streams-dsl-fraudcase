@@ -1,4 +1,4 @@
-package com.paradigma.rt.streaming.kstreams.fraudcheckerkstreams;
+package com.jaruiz.kstreams.dsl.fraudchecker;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

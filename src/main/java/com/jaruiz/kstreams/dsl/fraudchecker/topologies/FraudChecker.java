@@ -1,10 +1,10 @@
-package com.paradigma.rt.streaming.kstreams.fraudcheckerkstreams.topologies;
+package com.jaruiz.kstreams.dsl.fraudchecker.topologies;
 
-import com.paradigma.rt.streaming.kstreams.fraudcheckerkstreams.extractors.MovementTimestampExtractor;
-import com.paradigma.rt.streaming.kstreams.fraudcheckerkstreams.model.Fraud;
-import com.paradigma.rt.streaming.kstreams.fraudcheckerkstreams.model.Movement;
-import com.paradigma.rt.streaming.kstreams.fraudcheckerkstreams.serializers.JsonDeserializer;
-import com.paradigma.rt.streaming.kstreams.fraudcheckerkstreams.serializers.JsonSerializer;
+import com.jaruiz.kstreams.dsl.fraudchecker.extractors.MovementTimestampExtractor;
+import com.jaruiz.kstreams.dsl.fraudchecker.model.Fraud;
+import com.jaruiz.kstreams.dsl.fraudchecker.model.Movement;
+import com.jaruiz.kstreams.dsl.fraudchecker.serializers.JsonDeserializer;
+import com.jaruiz.kstreams.dsl.fraudchecker.serializers.JsonSerializer;
 import org.apache.kafka.common.serialization.Serde;
 import org.apache.kafka.common.serialization.Serdes;
 import org.apache.kafka.streams.KeyValue;

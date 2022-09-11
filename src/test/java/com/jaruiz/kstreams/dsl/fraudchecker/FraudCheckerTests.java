@@ -1,10 +1,10 @@
-package com.paradigma.rt.streaming.kstreams.fraudcheckerkstreams;
+package com.jaruiz.kstreams.dsl.fraudchecker;
 
-import com.paradigma.rt.streaming.kstreams.fraudcheckerkstreams.model.Fraud;
-import com.paradigma.rt.streaming.kstreams.fraudcheckerkstreams.model.Movement;
-import com.paradigma.rt.streaming.kstreams.fraudcheckerkstreams.serializers.JsonDeserializer;
-import com.paradigma.rt.streaming.kstreams.fraudcheckerkstreams.serializers.JsonSerializer;
-import com.paradigma.rt.streaming.kstreams.fraudcheckerkstreams.topologies.FraudChecker;
+import com.jaruiz.kstreams.dsl.fraudchecker.model.Fraud;
+import com.jaruiz.kstreams.dsl.fraudchecker.model.Movement;
+import com.jaruiz.kstreams.dsl.fraudchecker.serializers.JsonDeserializer;
+import com.jaruiz.kstreams.dsl.fraudchecker.serializers.JsonSerializer;
+import com.jaruiz.kstreams.dsl.fraudchecker.topologies.FraudChecker;
 import org.apache.kafka.common.serialization.Serde;
 import org.apache.kafka.common.serialization.Serdes;
 import org.apache.kafka.common.serialization.StringDeserializer;
@@ -14,11 +14,9 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import java.text.SimpleDateFormat;
 import java.time.Instant;
 import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
-import java.time.format.FormatStyle;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Locale;

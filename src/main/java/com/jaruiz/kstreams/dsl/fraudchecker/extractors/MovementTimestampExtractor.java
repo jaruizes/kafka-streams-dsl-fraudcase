@@ -1,6 +1,6 @@
-package com.paradigma.rt.streaming.kstreams.fraudcheckerkstreams.extractors;
+package com.jaruiz.kstreams.dsl.fraudchecker.extractors;
 
-import com.paradigma.rt.streaming.kstreams.fraudcheckerkstreams.model.Movement;
+import com.jaruiz.kstreams.dsl.fraudchecker.model.Movement;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.streams.processor.TimestampExtractor;
 

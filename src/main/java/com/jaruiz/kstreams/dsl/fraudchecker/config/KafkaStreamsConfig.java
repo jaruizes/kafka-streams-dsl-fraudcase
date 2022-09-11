@@ -1,4 +1,4 @@
-package com.paradigma.rt.streaming.kstreams.fraudcheckerkstreams.config;
+package com.jaruiz.kstreams.dsl.fraudchecker.config;
 
 import org.apache.kafka.common.serialization.Serdes;
 import org.springframework.beans.factory.annotation.Value;
